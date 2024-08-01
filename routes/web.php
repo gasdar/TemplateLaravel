@@ -17,3 +17,7 @@ Route::get('/app', function() {
 Route::get('/login', function() {
     return view("login");
 });
+
+Route::get('/test/{name?}/{age?}', function($name='user', $age=20) {
+    return view('test')->with('name', $name)->with('age', $age);
+});

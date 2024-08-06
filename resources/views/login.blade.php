@@ -9,20 +9,22 @@
 </head>
 <body>
     
-    <div class="p-5">
-        <h2 class="text-center mb-5">Login de Cliente</h2>
+    <div class="container">
+        <h2 class="text-center p-5">Login de Cliente</h2>
 
-        <form action=#>
-            <div class="mb-3">
-                <label for="username" class="form-label">Nombre de Usuario:</label>
-                <input type="text" class="form-control" id="username" name="username">
-            </div>
-            <div class="mb-3">
-                <label for="user_pass" class="form-label">Clave:</label>
-                <input type="password" class="form-control" id="user_pass" name="user_pass">
-            </div>
-            <input type="submit" value="Iniciar Sesión" class="btn btn-primary">
-        </form>
+        <div class="row justify-content-center">
+            <form action="#" method="POST" class="col-8" >
+                <div class="mb-3">
+                    <label for="username" class="form-label">Nombre de Usuario:</label>
+                    <input type="text" class="form-control" id="username" name="username">
+                </div>
+                <div class="mb-3">
+                    <label for="user_pass" class="form-label">Clave:</label>
+                    <input type="password" class="form-control" id="user_pass" name="user_pass">
+                </div>
+                <input type="submit" value="Iniciar Sesión" class="btn btn-primary">
+            </form>
+        </div>
     </div>
 
 </body>
